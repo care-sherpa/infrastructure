@@ -71,9 +71,9 @@ resource "google_service_networking_connection" "private_vpc_connection" {
 #
 # PostgreSQL
 #
-resource "google_sql_database_instance" "main-db" {
+resource "google_sql_database_instance" "main-apps-db" {
   depends_on          = [google_compute_network.private_network]
-  name                = "main-db"
+  name                = "main-apps-db"
   database_version    = "POSTGRES_13"
   region              = "${var.region}"
   deletion_protection = false
@@ -98,12 +98,12 @@ resource "google_sql_database" "database" {
   for_each = local.cs_projects
 
   name      = each.key
-  instance  = "${google_sql_database_instance.main-db.name}"
+  instance  = "${google_sql_database_instance.main-apps-db.name}"
 }
 
 resource "google_sql_user" "user" {
   name     = "caresherpa"
-  instance = "${google_sql_database_instance.main-db.name}"
+  instance = "${google_sql_database_instance.main-apps-db.name}"
   password = "${var.caresherpa_master_db_password}"
 }
 

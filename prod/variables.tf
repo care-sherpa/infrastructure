@@ -3,11 +3,11 @@ variable "project" {
 }
 
 variable "region" {
-  default = "us-east1"
+  default = "us-central1"
 }
 
 variable "zone" {
-  default = "us-east1-c"
+  default = "us-central1-a"
 }
 
 variable "caresherpa_master_db_password" {
