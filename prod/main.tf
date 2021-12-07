@@ -31,13 +31,14 @@ locals {
 }
 
 #
-# Compute
+# Net
 #
 resource "google_compute_network" "private_network" {
   name     = "private-network-caresherpa"
 }
 
 resource "google_compute_subnetwork" "subnet" {
+  depends_on    = [google_compute_network.private_network]
   name          = "private-network-caresherpa-subnet"
   ip_cidr_range = "10.1.0.0/16"
   region        = "${var.region}"
@@ -55,6 +56,7 @@ resource "google_compute_subnetwork" "subnet" {
 }
 
 resource "google_compute_global_address" "private_ip" {
+  depends_on    = [google_compute_network.private_network]
   name          = "private-ip-postgres"
   purpose       = "VPC_PEERING"
   address_type  = "INTERNAL"
@@ -63,9 +65,45 @@ resource "google_compute_global_address" "private_ip" {
 }
 
 resource "google_service_networking_connection" "private_vpc_connection" {
+  depends_on              = [google_compute_network.private_network]
   network                 = google_compute_network.private_network.self_link
   service                 = "servicenetworking.googleapis.com"
   reserved_peering_ranges = [google_compute_global_address.private_ip.name]
+}
+
+resource "google_compute_firewall" "allow-iap-to-vm" {
+  depends_on  = [google_compute_network.private_network]
+  name        = "allow-iap-to-vm"
+  network     = google_compute_network.private_network.self_link
+  description = "Allow IAP to VMs"
+  direction   = "INGRESS"
+
+  allow {
+    protocol = "tcp"
+  }
+
+  source_ranges = ["35.235.240.0/20"]
+}
+
+resource "google_compute_router" "cloud_router" {
+  depends_on = [google_compute_network.private_network]
+  name       = "cloud-router"
+  network    = google_compute_network.private_network.self_link
+  region     = "${var.region}"
+}
+
+resource "google_compute_router_nat" "cloud_nat" {
+  depends_on                         = [google_compute_router.cloud_router]
+  name                               = "cloud-nat"
+  router                             = google_compute_router.cloud_router.name
+  region                             = "${var.region}"
+  nat_ip_allocate_option             = "AUTO_ONLY"
+  source_subnetwork_ip_ranges_to_nat = "ALL_SUBNETWORKS_ALL_IP_RANGES"
+
+  log_config {
+    enable = true
+    filter = "ERRORS_ONLY"
+  }
 }
 
 #
