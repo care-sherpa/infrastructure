@@ -29,3 +29,13 @@ output "service_account" {
   description = "The default service account used for running nodes."
   value       = module.gke.service_account
 }
+
+output "docker_registry_id" {
+  description = "Docker registry id"
+  value       = google_artifact_registry_repository.cs-docker.id
+}
+
+output "docker_registry_name" {
+  description = "Docker registry name"
+  value       = google_artifact_registry_repository.cs-docker.name
+}

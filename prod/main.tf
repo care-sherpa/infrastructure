@@ -7,6 +7,10 @@ terraform {
     google = {
       source = "hashicorp/google"
     }
+
+    google-beta = {
+     source = "hashicorp/google-beta"
+    }
   }
 
   backend "gcs" {
@@ -15,6 +19,12 @@ terraform {
 }
 
 provider "google" {
+  project = var.project
+  region  = var.region
+  zone    = var.zone
+}
+
+provider "google-beta" {
   project = var.project
   region  = var.region
   zone    = var.zone
@@ -191,4 +201,27 @@ module "gke" {
       display_name = "csvpc"
     },
   ]  
+}
+
+#
+# Artifact Repository
+#
+resource "google_artifact_registry_repository" "cs-docker" {
+  provider = google-beta
+
+  location      = "${var.region}"
+  repository_id = "cs-docker"
+  description   = "docker image repository"
+  format        = "DOCKER"
+  project       = "${var.project}"
+}
+
+resource "google_artifact_registry_repository_iam_member" "member-tf-sa" {
+  depends_on = [google_artifact_registry_repository.cs-docker]
+  provider   = google-beta
+  project    = "${var.project}"
+  location   = "${var.region}"
+  repository = "${google_artifact_registry_repository.cs-docker.repository_id}"
+  role       = "roles/artifactregistry.reader"
+  member     = "serviceAccount:${module.gke.service_account}"
 }
