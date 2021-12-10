@@ -159,34 +159,35 @@ resource "google_sql_user" "user" {
 # K8s
 #
 module "gke" {
-  depends_on                 = [google_compute_subnetwork.subnet]
+  depends_on                      = [google_compute_subnetwork.subnet]
 
-  source                     = "terraform-google-modules/kubernetes-engine/google//modules/private-cluster"
-  project_id                 = "${var.project}"
-  name                       = "cs-prod-apps-gke"  
-  regional                   = false
-  region                     = "${var.region}"
-  zones                      = ["${var.zone}"]
-  network                    = "private-network-caresherpa"
-  subnetwork                 = "private-network-caresherpa-subnet"
-  ip_range_pods              = "caresherpa-gke-cluster-ip-range"
-  ip_range_services          = "caresherpa-gke-service-ip-range"
-  create_service_account     = true
-  http_load_balancing        = false
-  horizontal_pod_autoscaling = false
-  network_policy             = true
-  remove_default_node_pool   = true
-  initial_node_count         = 1
-  enable_private_nodes       = true
+  source                          = "terraform-google-modules/kubernetes-engine/google//modules/private-cluster"
+  project_id                      = "${var.project}"
+  name                            = "cs-prod-apps-gke"
+  regional                        = false
+  region                          = "${var.region}"
+  zones                           = ["${var.zone}"]
+  network                         = "private-network-caresherpa"
+  subnetwork                      = "private-network-caresherpa-subnet"
+  ip_range_pods                   = "caresherpa-gke-cluster-ip-range"
+  ip_range_services               = "caresherpa-gke-service-ip-range"
+  create_service_account          = true
+  http_load_balancing             = true
+  horizontal_pod_autoscaling      = true
+  network_policy                  = false
+  remove_default_node_pool        = true
+  initial_node_count              = 1
+  enable_private_nodes            = true
+  enable_vertical_pod_autoscaling = false
 
   node_pools = [
     {
-      name                      = "default-node-pool"
+      name                      = "apps-1-node-pool"
       machine_type              = "e2-medium"
       min_count                 = 1
-      max_count                 = 2
+      max_count                 = 3
       local_ssd_count           = 0
-      disk_size_gb              = 10
+      disk_size_gb              = 100
       disk_type                 = "pd-standard"
       image_type                = "COS_CONTAINERD"
       auto_repair               = true
@@ -199,7 +200,7 @@ module "gke" {
     {
       cidr_block   = "${google_compute_subnetwork.subnet.ip_cidr_range}"
       display_name = "csvpc"
-    },
+    }
   ]  
 }
 
