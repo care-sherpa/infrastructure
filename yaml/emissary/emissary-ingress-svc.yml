@@ -1,3 +1,6 @@
+# This is an example of what the Helm installed emissary svc
+# config _should_ look like. There are fields here that may
+# not be applicable to particular install.
 ---
 apiVersion: v1
 kind: Service
