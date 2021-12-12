@@ -39,3 +39,8 @@ output "docker_registry_name" {
   description = "Docker registry name"
   value       = google_artifact_registry_repository.cs-docker.name
 }
+
+output "load_balancer_static_ip" {
+  description = "Static IP for the load balancer service"
+  value       = google_compute_address.lb-address.address
+}

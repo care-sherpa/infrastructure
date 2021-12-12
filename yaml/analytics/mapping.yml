@@ -1,0 +1,10 @@
+---
+apiVersion: getambassador.io/v3alpha1
+kind: Mapping
+metadata:
+  name: analytics
+  namespace: app-analytics  
+spec:
+  hostname: "analytics.caresherpa.us"
+  prefix: /
+  service: analytics

@@ -1,0 +1,11 @@
+---
+apiVersion: getambassador.io/v3alpha1
+kind: Host
+metadata:
+  name: caresherpa-expedition-emissary-host
+  namespace: app-expedition
+spec:
+  hostname: "expedition.caresherpa.us"
+  requestPolicy:
+    insecure:
+      action: Route

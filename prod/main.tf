@@ -116,6 +116,13 @@ resource "google_compute_router_nat" "cloud_nat" {
   }
 }
 
+resource "google_compute_address" "lb-address" {
+  name          = "lb-svc-address"
+  address_type  = "EXTERNAL"
+  region        = "${var.region}"
+  project       = "${var.project}"
+}
+
 #
 # PostgreSQL
 #
@@ -200,6 +207,14 @@ module "gke" {
     {
       cidr_block   = "${google_compute_subnetwork.subnet.ip_cidr_range}"
       display_name = "csvpc"
+    },
+    {
+      cidr_block   = "71.135.82.66/32"
+      display_name = "Hen Home"
+    },
+    {
+      cidr_block   = "66.115.189.188/32"
+      display_name = "Rod Home" 
     }
   ]  
 }

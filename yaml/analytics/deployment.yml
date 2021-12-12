@@ -1,0 +1,24 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: analytics
+  namespace: app-analytics
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: analytics
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: analytics
+    spec:
+      containers:
+      - name: analytics
+        image: us-central1-docker.pkg.dev/caresherpaprod/cs-docker/ca:test
+        ports:
+        - name: http
+          containerPort: 80

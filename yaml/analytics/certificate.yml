@@ -1,0 +1,13 @@
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: analytics
+  namespace: app-analytics
+spec:
+  secretName: analytics-certs
+  issuerRef:
+    name: analytics
+    kind: ClusterIssuer
+  dnsNames:
+  - analytics.caresherpa.us

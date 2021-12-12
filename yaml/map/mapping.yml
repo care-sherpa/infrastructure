@@ -1,0 +1,10 @@
+---
+apiVersion: getambassador.io/v3alpha1
+kind: Mapping
+metadata:
+  name: map
+  namespace: app-map
+spec:
+  hostname: "map.caresherpa.us"
+  prefix: /
+  service: map

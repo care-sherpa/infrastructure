@@ -1,0 +1,14 @@
+apiVersion: getambassador.io/v3alpha1
+kind: Host
+metadata:
+  name: caresherpa-analytics-emissary-host
+  namespace: app-analytics
+spec:
+  hostname: "analytics.caresherpa.us"
+  requestPolicy:
+    insecure:
+      action: Route
+  acmeProvider:
+    authority: none
+  tlsSecret:
+    name: analytics-certs

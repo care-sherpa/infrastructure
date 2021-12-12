@@ -1,0 +1,10 @@
+apiVersion: getambassador.io/v3alpha1
+kind: Host
+metadata:
+  name: caresherpa-map-emissary-host
+  namespace: app-map
+spec:
+  hostname: "map.caresherpa.us"
+  requestPolicy:
+    insecure:
+      action: Route
