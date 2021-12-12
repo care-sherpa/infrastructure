@@ -1,0 +1,53 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    a8r.io/bugs: https://github.com/datawire/ambassador/issues
+    a8r.io/chat: http://a8r.io/Slack
+    a8r.io/dependencies: emissary-ingress-redis.emissary
+    a8r.io/description: The Ambassador Edge Stack goes beyond traditional API Gateways
+      and Ingress Controllers with the advanced edge features needed to support developer
+      self-service and full-cycle development.
+    a8r.io/documentation: https://www.getambassador.io/docs/edge-stack/latest/
+    a8r.io/owner: Ambassador Labs
+    a8r.io/repository: github.com/datawire/ambassador
+    a8r.io/support: https://www.getambassador.io/about-us/support/
+    cloud.google.com/neg: '{"ingress":true}'
+    cloud.google.com/neg-status: '{"network_endpoint_groups":{"8080":"k8s1-105dda2e-emissary-emissary-ingress-8080-b0bdf87c"},"zones":["us-central1-a"]}'
+    meta.helm.sh/release-name: emissary-ingress
+    meta.helm.sh/release-namespace: emissary
+    cloud.google.com/backend-config: '{"default": "ambassador-hc-config"}'
+  creationTimestamp: "2021-12-10T05:15:48Z"
+  labels:
+    app.kubernetes.io/component: ambassador-service
+    app.kubernetes.io/instance: emissary-ingress
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: emissary-ingress
+    app.kubernetes.io/part-of: emissary-ingress
+    helm.sh/chart: emissary-ingress-7.1.10
+    product: aes
+  name: emissary-ingress
+  namespace: emissary
+spec:
+  clusterIP: 192.168.0.41
+  clusterIPs:
+  - 192.168.0.41
+  externalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: http
+    nodePort: 32028
+    port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app.kubernetes.io/instance: emissary-ingress
+    app.kubernetes.io/name: emissary-ingress
+    profile: main
+  sessionAffinity: None
+  type: NodePort
+status:
+  loadBalancer: {}

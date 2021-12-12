@@ -116,10 +116,9 @@ resource "google_compute_router_nat" "cloud_nat" {
   }
 }
 
-resource "google_compute_address" "lb-address" {
+resource "google_compute_global_address" "lb-address" {
   name          = "lb-svc-address"
   address_type  = "EXTERNAL"
-  region        = "${var.region}"
   project       = "${var.project}"
 }
 

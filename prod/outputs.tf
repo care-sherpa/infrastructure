@@ -42,5 +42,5 @@ output "docker_registry_name" {
 
 output "load_balancer_static_ip" {
   description = "Static IP for the load balancer service"
-  value       = google_compute_address.lb-address.address
+  value       = google_compute_global_address.lb-address.address
 }

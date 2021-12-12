@@ -1,0 +1,15 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: basic-ingress
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: "lb-svc-address"
+    networking.gke.io/managed-certificates: managed-cert
+    kubernetes.io/ingress.class: "gce"
+  namespace: emissary
+spec:
+  defaultBackend:
+    service:
+      name: emissary-ingress
+      port:
+        number: 8080
