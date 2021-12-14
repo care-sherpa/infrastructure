@@ -5,6 +5,6 @@ metadata:
   name: map
   namespace: app-map
 spec:
-  hostname: "map.caresherpa.us"
+  hostname: "map-k8s.caresherpa.us"
   prefix: /
-  service: map
+  service: map:8000

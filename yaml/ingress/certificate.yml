@@ -1,10 +1,10 @@
----
 apiVersion: networking.gke.io/v1
 kind: ManagedCertificate
 metadata:
-  name: managed-cert
+    name: managed-cert-k8s
+    namespace: emissary
 spec:
   domains:
-    - analytics.caresherpa.us
-    - expedition.caresherpa.us
-    - map.caresherpa.us
+  - analytics-k8s.caresherpa.us
+  - expedition-k8s.caresherpa.us
+  - map-k8s.caresherpa.us

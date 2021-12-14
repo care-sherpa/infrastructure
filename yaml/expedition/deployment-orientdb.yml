@@ -1,0 +1,29 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: orientdb
+  namespace: app-expedition
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: orientdb
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: orientdb
+    spec:
+      containers:
+      - name: orientdb
+        image: orientdb
+        ports:
+        - name: p2424
+          containerPort: 2424
+        - name: p2480
+          containerPort: 2480
+        env:
+          - name: ORIENTDB_ROOT_PASSWORD
+            value: ""

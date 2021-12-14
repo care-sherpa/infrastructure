@@ -5,6 +5,6 @@ metadata:
   name: expedition
   namespace: app-expedition  
 spec:
-  hostname: "expedition.caresherpa.us"
+  hostname: "expedition-k8s.caresherpa.us"
   prefix: /
   service: expedition
