@@ -37,7 +37,7 @@ provider "kubernetes" {
 }
 
 locals {
-  cs_projects = toset(["careproject", "careanalytics", "caremap"])
+  cs_projects = toset(["openempi", "analytics", "map"])
 }
 
 #
@@ -145,6 +145,10 @@ resource "google_sql_database_instance" "main-apps-db" {
     location_preference {
       zone = var.zone
     }
+
+    backup_configuration {
+      enabled = true
+    }
   }
 }
 
@@ -212,7 +216,7 @@ module "gke" {
       display_name = "Hen Home"
     },
     {
-      cidr_block   = "66.115.189.188/32"
+      cidr_block   = "66.115.189.225/32"
       display_name = "Rod Home" 
     }
   ]  

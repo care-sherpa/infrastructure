@@ -8,3 +8,4 @@ crash.log
 *.tfvars
 
 scratch
+.DS_Store
