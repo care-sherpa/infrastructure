@@ -11,5 +11,7 @@ variable "zone" {
 }
 
 variable "caresherpa_master_db_password" {
-  default = ""
+  sensitive = true
+  type      = string
+  description = "Database Password for caresherpa user"
 }

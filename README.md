@@ -2,6 +2,11 @@
 
 This repo contains most of the GCP infrastructure resource definitions as well as YAML configurations used to get things up.
 
+## Setup
+- To setup your credentials, [create a service account](https://cloud.google.com/docs/authentication/production#create-service-account-gcloud), download the `.json` file and set the `GOOGLE_APPLICATION_CREDENTIALS` with the location of the file.
+- The `caresherpa_master_db_password` variable is listed as `sensitive` so either create a `secrets.tfvars` file and pass it into terraform with a `-vars-file=secrets.tfvars` flag or input it when prompted. (the password is stored in lastpass)
+
+
 Order of Operations:
 1. Run a terraform init/plan/apply from the _prod_ folder to get the following resources created in GCP:
     1. VPC Network - private-network-caresherpa
@@ -28,3 +33,5 @@ Order of Operations:
 3. Apply YAML in yaml/ingress - this will create two GCP load balancers
 4. Apply YAML in yaml/emissary - this updates the emissary resources to work behind the load balancers
 5. Apply YAML in yaml/analytics, yaml/expedition, yaml/map
+
+

@@ -139,7 +139,15 @@ resource "google_sql_database_instance" "main-apps-db" {
     ip_configuration {
       private_network = google_compute_network.private_network.self_link
 
-      ipv4_enabled = false
+      ipv4_enabled = true
+      authorized_networks {
+        name = "Brett home"
+        value = "75.138.17.130"
+      }
+      authorized_networks {
+        name = "McCraw home"
+        value = "24.183.235.71/32"
+      }
     }
 
     location_preference {
@@ -177,6 +185,7 @@ module "gke" {
   regional                        = false
   region                          = "${var.region}"
   zones                           = ["${var.zone}"]
+  kubernetes_version              = "1.21.6-gke.1500"
   network                         = "private-network-caresherpa"
   subnetwork                      = "private-network-caresherpa-subnet"
   ip_range_pods                   = "caresherpa-gke-cluster-ip-range"
@@ -216,8 +225,8 @@ module "gke" {
       display_name = "Hen Home"
     },
     {
-      cidr_block   = "66.115.189.225/32"
-      display_name = "Rod Home" 
+      cidr_block   = "24.183.235.71/32"
+      display_name = "McCraw Home" 
     }
   ]  
 }
