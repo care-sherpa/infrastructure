@@ -174,6 +174,45 @@ resource "google_sql_user" "user" {
 }
 
 #
+# MySQL
+#
+resource "google_sql_database_instance" "mysql-apps-db" {
+  depends_on          = [google_compute_network.private_network]
+  name                = "prod-mysql-apps-db"
+  database_version    = "MYSQL_8_0"
+  region              = "${var.region}"
+  deletion_protection = false
+
+  settings {
+    tier = "db-g1-small"
+    availability_type = "REGIONAL"
+
+    ip_configuration {
+      private_network = google_compute_network.private_network.self_link
+
+      ipv4_enabled = true
+      authorized_networks {
+        name = "Brett home"
+        value = "75.138.17.130"
+      }
+      authorized_networks {
+        name = "McCraw home"
+        value = "24.183.235.71/32"
+      }
+    }
+
+    location_preference {
+      zone = var.zone
+    }
+
+    backup_configuration {
+      enabled            = true
+      binary_log_enabled = true
+    }
+  }
+}
+
+#
 # K8s
 #
 module "gke" {
