@@ -1,10 +1,12 @@
 apiVersion: networking.gke.io/v1
 kind: ManagedCertificate
 metadata:
-    name: managed-cert-k8s-2
+    name: managed-cert-k8s-20220323
     namespace: emissary
 spec:
   domains:
+  - airflow.caresherpa.us
+  - airbyte.caresherpa.us
   - analytics-k8s.caresherpa.us
   - expedition-k8s.caresherpa.us
   - map-k8s.caresherpa.us
