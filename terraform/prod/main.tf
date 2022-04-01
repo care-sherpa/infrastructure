@@ -148,6 +148,14 @@ resource "google_sql_database_instance" "main-apps-db" {
         name = "McCraw home"
         value = "24.183.235.71/32"
       }
+      authorized_networks {
+        name  = "Christian Home Office"
+        value = "70.225.9.239/32"
+      }
+      authorized_networks {
+        name  = "Conlan Craft"
+        value = "136.29.138.11/32"
+      }
     }
 
     location_preference {
@@ -199,6 +207,14 @@ resource "google_sql_database_instance" "mysql-apps-db" {
         name = "McCraw home"
         value = "24.183.235.71/32"
       }
+      authorized_networks {
+        name  = "Christian Home Office"
+        value = "70.225.9.239/32"
+      }
+      authorized_networks {
+        name  = "Conlan Craft"
+        value = "136.29.138.11/32"
+      }
     }
 
     location_preference {
@@ -243,7 +259,7 @@ module "gke" {
       name                      = "apps-1-node-pool"
       machine_type              = "e2-medium"
       min_count                 = 1
-      max_count                 = 3
+      max_count                 = 4
       local_ssd_count           = 0
       disk_size_gb              = 100
       disk_type                 = "pd-standard"
@@ -251,6 +267,18 @@ module "gke" {
       auto_repair               = true
       auto_upgrade              = true
       initial_node_count        = 2
+    },
+    {
+      name                      = "data-1-node-pool"
+      machine_type              = "e2-medium"
+      min_count                 = 2
+      max_count                 = 4
+      local_ssd_count           = 0
+      disk_size_gb              = 100
+      disk_type                 = "pd-standard"
+      image_type                = "COS_CONTAINERD"
+      auto_repair               = true
+      auto_upgrade              = true
     },
   ]
 
@@ -266,6 +294,18 @@ module "gke" {
     {
       cidr_block   = "24.183.235.71/32"
       display_name = "McCraw Home" 
+    },
+    {
+      cidr_block   = "135.84.167.43/32"
+      display_name = "Conlan Craft Office"
+    },
+    {
+      cidr_block   = "136.29.138.11/32"
+      display_name = "Conlan Craft Home"
+    },
+    {
+      cidr_block   = "70.225.9.239/32"
+      display_name = "Christian's Home Network"
     }
   ]  
 }

@@ -8,6 +8,7 @@ spec:
   port: 8080
   protocol: HTTPS
   securityModel: XFP
+  l7Depth: 1 # Set to the number of Layer 7 load balancers between emissary and the edge
   hostBinding:
     namespace:
       from: ALL
