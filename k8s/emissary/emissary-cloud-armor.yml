@@ -6,4 +6,4 @@ metadata:
   namespace: emissary
 spec:
   securityPolicy:
-    name: emissary-cloud-armor-config
+    name: k8s-emissary-ingress-rules
