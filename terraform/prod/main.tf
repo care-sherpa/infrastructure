@@ -321,7 +321,7 @@ resource "google_compute_security_policy" "policy" {
       expr {
         expression = <<-CEL
           request.headers['host'].lower().contains('airbyte.caresherpa.us')  && !(
-            origin.ip == "${join("\" || origin.ip ==\"", [
+            origin.ip == "${join("\" || origin.ip == \"", [
               // Manage whitelist here
               "135.84.167.43", // Conlan Office
               "24.183.235.71", // McCraw Home
