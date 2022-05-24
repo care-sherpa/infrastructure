@@ -310,6 +310,45 @@ module "gke" {
   ]  
 }
 
+resource "google_compute_security_policy" "policy" {
+  name = "k8s-emissary-ingress-rules"
+
+  rule {
+    action   = "deny(403)"
+    priority = "2147483646"
+
+    match {
+      expr {
+        expression = <<-CEL
+          request.headers['host'].lower().contains('airbyte.caresherpa.us')  && !(
+            origin.ip == "${join("\" || origin.ip == \"", [
+              // Manage whitelist here
+              "135.84.167.43", // Conlan Office
+              "24.183.235.71", // McCraw Home
+              "71.135.82.66",  // Hen Home
+              "75.138.17.130" // Brett Home
+            ])}"
+          )
+        CEL
+      }
+    }
+
+    description = "Airbyte Whitelist"
+  }
+
+  rule {
+    action   = "allow"
+    priority = "2147483647"
+    match {
+      versioned_expr = "SRC_IPS_V1"
+      config {
+        src_ip_ranges = ["*"]
+      }
+    }
+    description = "Default rule, allow all"
+  }
+}
+
 #
 # Artifact Repository
 #

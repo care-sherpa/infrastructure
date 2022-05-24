@@ -1,0 +1,9 @@
+---
+apiVersion: cloud.google.com/v1
+kind: BackendConfig
+metadata:
+  name: ambassador-ca-config
+  namespace: emissary
+spec:
+  securityPolicy:
+    name: emissary-cloud-armor-config
