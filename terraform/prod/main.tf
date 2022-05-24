@@ -306,6 +306,10 @@ module "gke" {
     {
       cidr_block   = "70.225.9.239/32"
       display_name = "Christian's Home Network"
+    },
+    {
+      cidr_block = "75.138.17.130/32"
+      display_name = "Brett home"
     }
   ]  
 }
