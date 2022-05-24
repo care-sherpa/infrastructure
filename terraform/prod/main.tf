@@ -311,7 +311,7 @@ module "gke" {
 }
 
 resource "google_compute_security_policy" "policy" {
-  name = "emissary-cloud-armor-config"
+  name = "k8s-emissary-ingress-rules"
 
   rule {
     action   = "deny(403)"
