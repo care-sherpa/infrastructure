@@ -340,7 +340,6 @@ resource "google_compute_security_policy" "policy" {
               "71.135.82.66",  // Hen Home
               "75.138.17.130", // Brett Home
               "108.250.118.27" // Joseph Home
-      }
             ])}"
           )
         CEL
