@@ -156,6 +156,10 @@ resource "google_sql_database_instance" "main-apps-db" {
         name  = "Conlan Craft"
         value = "136.29.138.11/32"
       }
+      authorized_networks {
+        name = "Joseph Home"
+        value = "108.250.118.27/32" 
+      }
     }
 
     location_preference {
@@ -214,6 +218,10 @@ resource "google_sql_database_instance" "mysql-apps-db" {
       authorized_networks {
         name  = "Conlan Craft"
         value = "136.29.138.11/32"
+      }
+      authorized_networks {
+        name = "Joseph Home"
+        value = "108.250.118.27/32" 
       }
     }
 
@@ -331,7 +339,8 @@ resource "google_compute_security_policy" "policy" {
               "135.84.167.43", // Conlan Office
               "24.183.235.71", // McCraw Home
               "71.135.82.66",  // Hen Home
-              "75.138.17.130" // Brett Home
+              "75.138.17.130", // Brett Home
+              "108.250.118.27" // Joseph Home
             ])}"
           )
         CEL
