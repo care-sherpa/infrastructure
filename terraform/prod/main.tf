@@ -258,27 +258,28 @@ module "gke" {
     {
       name                      = "apps-1-node-pool"
       machine_type              = "e2-medium"
-      min_count                 = 1
-      max_count                 = 4
+      min_count                 = 4
+      max_count                 = 8
       local_ssd_count           = 0
       disk_size_gb              = 100
       disk_type                 = "pd-standard"
       image_type                = "COS_CONTAINERD"
       auto_repair               = true
       auto_upgrade              = true
-      initial_node_count        = 2
+      initial_node_count        = 4
     },
     {
       name                      = "data-1-node-pool"
       machine_type              = "e2-medium"
-      min_count                 = 2
-      max_count                 = 4
+      min_count                 = 3
+      max_count                 = 6
       local_ssd_count           = 0
       disk_size_gb              = 100
       disk_type                 = "pd-standard"
       image_type                = "COS_CONTAINERD"
       auto_repair               = true
       auto_upgrade              = true
+      initial_node_count        = 3
     },
   ]
 
