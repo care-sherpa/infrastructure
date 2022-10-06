@@ -142,7 +142,7 @@ resource "google_sql_database_instance" "main-apps-db" {
       ipv4_enabled = true
       authorized_networks {
         name = "Brett home"
-        value = "75.138.17.130"
+        value = "68.117.165.193"
       }
       authorized_networks {
         name = "McCraw home"
@@ -205,7 +205,7 @@ resource "google_sql_database_instance" "mysql-apps-db" {
       ipv4_enabled = true
       authorized_networks {
         name = "Brett home"
-        value = "75.138.17.130"
+        value = "68.117.165.193"
       }
       authorized_networks {
         name = "McCraw home"
@@ -317,7 +317,7 @@ module "gke" {
       display_name = "Christian's Home Network"
     },
     {
-      cidr_block = "75.138.17.130/32"
+      cidr_block = "68.117.165.193/32"
       display_name = "Brett home"
     }
   ]  
@@ -339,7 +339,7 @@ resource "google_compute_security_policy" "policy" {
               "135.84.167.43", // Conlan Office
               "24.183.235.71", // McCraw Home
               "71.135.82.66",  // Hen Home
-              "75.138.17.130", // Brett Home
+              "68.117.165.193", // Brett Home
               "108.250.118.27" // Joseph Home
             ])}"
           )
