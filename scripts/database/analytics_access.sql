@@ -59,7 +59,7 @@ $$;
 -- Create joseph.levy as a regular Postgres user (if not exists) with a password from Google Secret Manager
 -- 
 -- SETUP REQUIRED:
--- 1. Run: ./secret_manager_utility.sh (interactive utility, defaults to corp project)
+-- 1. Run: ../../scripts/utilities/secret_manager_utility.sh (interactive utility, defaults to corp project)
 -- 2. Create or view secret: analytics-user-password  
 -- 3. Connect to DB and set variable: \set analytics_password 'YOUR_PASSWORD_HERE'
 -- 4. Run this script: \i analytics_access.sql

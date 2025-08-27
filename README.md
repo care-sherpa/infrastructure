@@ -1,10 +1,57 @@
-# Caresherpa GCP Infrastructure
+# Care Sherpa Infrastructure
 
-This repo contains most of the GCP infrastructure resource definitions as well as YAML configurations used to get things up.
+This repository contains Google Cloud Platform infrastructure definitions, Kubernetes configurations, and operational scripts for the Care Sherpa platform.
 
-## Setup
-- To setup your credentials, [create a service account](https://cloud.google.com/docs/authentication/production#create-service-account-gcloud), download the `.json` file and set the `GOOGLE_APPLICATION_CREDENTIALS` with the location of the file.
-- The `caresherpa_master_db_password` variable is listed as `sensitive` so either create a `secrets.tfvars` file and pass it into terraform with a `-vars-file=secrets.tfvars` flag or input it when prompted. (the password is stored in lastpass)
+## Repository Structure
+
+```
+├── terraform/
+│   ├── prod/          # Production infrastructure
+│   └── dev/           # Development infrastructure  
+├── k8s/               # Kubernetes configurations
+│   ├── emissary/      # Emissary ingress controller
+│   └── ingress/       # Load balancer and SSL certificates
+├── scripts/
+│   ├── database/      # Database setup and access scripts
+│   └── utilities/     # Operational utilities
+└── README.md
+```
+
+## Available Resources
+
+### Infrastructure (Terraform)
+- **Production Environment** (`terraform/prod/`): Complete GKE cluster, databases, networking
+- **Development Environment** (`terraform/dev/`): Cloud Workstations and development resources
+
+### Scripts & Utilities
+- **Database Scripts** (`scripts/database/`): User management, permissions, access setup
+- **Utilities** (`scripts/utilities/`): Secret management, operational tools
+
+### Kubernetes Configurations
+- **Emissary Ingress**: API gateway and load balancing
+- **SSL Certificates**: Managed certificates for custom domains
+- **Load Balancer**: Google Cloud Load Balancer integration
+
+## Quick Start
+
+### Prerequisites
+- [Google Cloud SDK](https://cloud.google.com/sdk/docs/install) installed and authenticated
+- [Terraform](https://terraform.io) installed
+- Access to Care Sherpa GCP projects
+
+### Setup
+1. **Authentication**: 
+   ```bash
+   gcloud auth login
+   gcloud auth application-default login
+   ```
+
+2. **Secret Management**: Use the interactive utility for managing secrets
+   ```bash
+   ./scripts/utilities/secret_manager_utility.sh
+   ```
+
+3. **Database Setup**: See `scripts/database/README.md` for database configuration
 
 
 Order of Operations:
