@@ -160,6 +160,10 @@ resource "google_sql_database_instance" "main-apps-db" {
         name = "Joseph Home"
         value = "108.250.118.27/32" 
       }
+      authorized_networks {
+        name = "Ledom Home"
+        value = "23.114.226.239/32" 
+      }
     }
 
     location_preference {
@@ -248,7 +252,7 @@ module "gke" {
   regional                        = false
   region                          = "${var.region}"
   zones                           = ["${var.zone}"]
-  kubernetes_version              = "1.21.6-gke.1500"
+  kubernetes_version              = "1.30.4-gke.1348001"
   network                         = "private-network-caresherpa"
   subnetwork                      = "private-network-caresherpa-subnet"
   ip_range_pods                   = "caresherpa-gke-cluster-ip-range"
@@ -317,6 +321,10 @@ module "gke" {
       display_name = "Christian's Home Network"
     },
     {
+      cidr_block   = "23.114.226.239/32"
+      display_name = "Ledom's Home Network"
+    },
+    {
       cidr_block = "68.117.165.193/32"
       display_name = "Brett home"
     }
@@ -368,12 +376,13 @@ resource "google_compute_security_policy" "policy" {
 #
 resource "google_artifact_registry_repository" "cs-docker" {
   provider = google-beta
-
+  mode          = "STANDARD_REPOSITORY"
   location      = "${var.region}"
   repository_id = "cs-docker"
   description   = "docker image repository"
   format        = "DOCKER"
   project       = "${var.project}"
+  effective_labels = ""
 }
 
 resource "google_artifact_registry_repository_iam_member" "member-tf-sa" {

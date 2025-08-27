@@ -1,0 +1,1843 @@
+[
+  {
+    "id": "rec3mAPTRYL0jJlAN",
+    "createdTime": "2025-04-04T03:41:52.000Z",
+    "Task Name": "Create user onboarding document",
+    "Description": "Need to be able to show the process of how a user goes from contacting to becoming a user.\n",
+    "Assignee": ["recWXlK60fSwFGOHU"],
+    "Due Date": "2025-04-08",
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec7jfOmatZLnM0aD"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-04-04T03:41:52.000Z",
+    "Customer Name": ["FlagNA"]
+  },
+  {
+    "id": "recEbmB2BbmLgQWm5",
+    "createdTime": "2025-04-10T19:07:50.000Z",
+    "Task Name": "FlagNA - Fix Requests 02",
+    "Description": "Update manufacturer across products.  Data provided by FlagNA\n",
+    "Assignee": ["recWXlK60fSwFGOHU"],
+    "Due Date": "2025-04-11",
+    "Priority": "2-Medium",
+    "Status": "In Progress",
+    "Customer": ["rec7jfOmatZLnM0aD"],
+    "Project/Business Area": "Customer Task",
+    "Estimated Time (hrs)": 3,
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-04-10T19:07:50.000Z",
+    "Customer Name": ["FlagNA"]
+  },
+  {
+    "id": "recKbbq1CsoLspLUl",
+    "createdTime": "2025-04-04T03:35:36.000Z",
+    "Task Name": "Logged in user cant access prices",
+    "Description": "I registered my user and was able to login. I get \"**You are not authorized to purchase this product.\"**\n",
+    "Assignee": ["recWXlK60fSwFGOHU"],
+    "Due Date": "2025-04-04",
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["rec7jfOmatZLnM0aD"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Attachments": [
+      {
+        "id": "attKUpzzdPDm02akc",
+        "width": 1113,
+        "height": 390,
+        "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/SInO7yGnz0xcUXjykHQucA/a5eYXUX2Ola4Pn5V4vXwyM-4WGwbM3hXRkkjSL4pV0a1CHu0uXZD_4_oAMaZbh5ki_EyA15JvAlh0zN00fUjOs7Hjr3Xgldiwep3iDVUZSoPW1RYtgv_LimniDwKzSd06DbkHjqKYLJxQMNnOtnJSQ/iVhIagI1Kw_u7fwv-zxnnsVTfgkruUTmC7Ly-29S5zY",
+        "filename": "image.png",
+        "size": 167242,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/xtxYhfXxQekLUXi2SCOQUg/l7icGdfI19cOChoAuVF_zwtQnQrz-FGJMQm7LS1PkluQMb3B04Hxe3fLiz2rJPY43txBZkdsBx3IPR5djWC58uOmIL3L0n42CmvPksACCUx_eoDkv-ilIl8i9_9tVhAmakzpryO6NpPXbN3-4hzt1A/Trw4IgGk5HW0eHU5B5CdnbmENIbg_G2esXxduOVtP9k",
+            "width": 103,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/ekQsT3ouCAM5TjpadP9LGg/U9kmGyJHvki2FzKGxV-w-Essvteq2vV7T5wKtBHi64NOq1oct2K3A8TI8UQL6D0TY4OEyufuKp43U4DkKOaOSK4VAmthyzsQadSyG6dvErv6nQk_AvvBbyufN7-a5KXx9my4h11DkwA05DhUBAUPTA/VKg_2korlY3U_L4OLXPFcopIKIGFmTk92zzc-owTAnc",
+            "width": 1113,
+            "height": 390
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/Xr4Ls71-cAslSwtnJvezlQ/dGr0k0zYeTcdczKGhNrpYzDoyUAQ1O6DLYG69I2uCr4EDxouaa8cEMN67euMqUuKfYmwDSTeXJ1bb1qX7TQg9iudX0IwZLJtm8dY52Oc6oBrR3dq19SnUpdkCllT5x8WM-e7ya92JPvI4frUIbkmWw/4IMMgYJkE77wbKFMqMf5kVJrRKF20jcCt2yeyyQMfZk",
+            "width": 1113,
+            "height": 390
+          }
+        }
+      }
+    ],
+    "User": [
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-04-04T03:35:36.000Z",
+    "Customer Name": ["FlagNA"]
+  },
+  {
+    "id": "recMvJptfhxdsVuFS",
+    "createdTime": "2025-05-16T13:18:17.000Z",
+    "Task Name": "Develop inventory sync automation",
+    "Description": "Develop and implement automation to sync QuickBooks inventory with Shopify using Google Drive.\n",
+    "Assignee": ["reckjb0OceIzxZyBp", "recWXlK60fSwFGOHU"],
+    "Due Date": "2025-05-30",
+    "Priority": "1-High",
+    "Status": "In Progress",
+    "Customer": ["rec7jfOmatZLnM0aD"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recNwkXVaho6x0WK4"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      },
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-05-16T13:18:17.000Z",
+    "Customer Name": ["FlagNA"]
+  },
+  {
+    "id": "recVyaIMroAlxMvlP",
+    "createdTime": "2025-04-21T21:07:16.000Z",
+    "Task Name": "Keragon Training",
+    "Assignee": ["recWXlK60fSwFGOHU"],
+    "Due Date": "2025-05-30",
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Actual Time Spent": 1,
+    "Hours": ["recomUgP1BtnwlEi8"],
+    "User": [
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-04-21T21:07:16.000Z"
+  },
+  {
+    "id": "recdRHmx2vkgYDeCs",
+    "createdTime": "2025-04-04T03:39:31.000Z",
+    "Task Name": "Go through purchase flow",
+    "Description": "Act like a customer and run through the whole flow:\n1. go to login\n2. click create account\n3. fill out form\n4. as admin, create account and send invite (images attached)\n5. as user, accept invite and create password\n6. add items to cart\n7. try to purchase\n",
+    "Assignee": ["recWXlK60fSwFGOHU"],
+    "Due Date": "2025-04-04",
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["rec7jfOmatZLnM0aD"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 1,
+    "Hours": ["recSAS1K7UDBftHDc"],
+    "Attachments": [
+      {
+        "id": "attfs4HLqVBKaZK3r",
+        "width": 975,
+        "height": 847,
+        "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/JYM1R2PisSrohZFCyU5i0A/ne4Ptv4xJuAGVMhYWk--KfoUmAPx4lNXrmcwKmT8iZFEUknP7WDfwA2B1iSkqYPS11Hgt_qqK7XhC6KII70Hn7DkA-MRxhKsAXNDqUNW4bQREPAIzgYzq2XomdjQLJ2ww39V-CSme3F4S-OgaROWpw/-9QUak1cWP79qcduepGmedDN8e9yizo3YTlA0P1g4No",
+        "filename": "image.png",
+        "size": 74854,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/8TnWfcHhdxFHkjx2SUkjjw/iRtxnXs3Tv9i1VrPTd1wSr2Vb__8qPZo4dQlAom91LtNuiEUbnnBjt4d7EpOB1spl1FaGZa6jgqNBcvLQcKygQTnUwZupethASWXuIw7ruDvUaZ2Df-pG63XNXIaCVT19YKa8NURTo-iXtNhkZXWkg/-zKKgTjWopzzMHe7RUzaFcIdWRhybVPuvNlX1aozVVY",
+            "width": 41,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/IYM8LAdb9XIrk-Z9B8i7_Q/-K-Y099v-7H1Ho_dXgLdSnRIRTmSShcmPC3NJA8Kh8U0SuZzNsnFVVsjI1a-qg90dw36OBPK_T8Yb6eLFk4lCKtv5mnfHdSKyNBbK2Y4zVmfwNfmPOrWW25t0WYCxeRrRYSuCjrxkE4-GU5NGcizgA/C3WHMMOlR_mq0ETLlg3CgudA0Kiqv9VQ-pcP6jQdSZw",
+            "width": 589,
+            "height": 512
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/-Njz844r68AZGeLkhlwoNA/GPiVVElvj36AOeypdmm6SSOFH_SIINMxIQteN01t9no4FhwHzEP5qbswvcBY4lHPant2StbJJ3qBZDd3E8ZJRffPz65jFCL1zmYoVpVuXZfs4TFd0Rk-dJ967P1gMTKAk3508WNVirE7MRn7zCD1tg/681RDVedboIieP8Uv3-sZVo-GoGFZkoaXggvFQAmMa4",
+            "width": 975,
+            "height": 847
+          }
+        }
+      },
+      {
+        "id": "atth81VcpZiAMwD1H",
+        "width": 1025,
+        "height": 586,
+        "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/Zox-KlERB1dwEbt5a9t8sA/yTkfYkrtMsyVQD9hdLiP9mqi3Rmuyu_b52M53wABwZHPF-HSVgd30PmQfPzlvdgMDeNI1Ea1T2_7dCADLmLvcdtU3pK7WSHIZZ9ijjqLnzZU-ivezIHprTYI1pZzzHFRim1XoUepJD26A0fXmmHCTg/VT_XxiDDUaL-q1V2UqVLPVZGn4c07xAWqnNwW3nApaw",
+        "filename": "image.png",
+        "size": 103438,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/3knCflkPyMYz_5PvBvjLHw/AMpdzcakLdg1CLw5UA_eu-zDtnnlQul9lpb7UuNjVo7xu7Dygi6eaDvFoODDWLyXJeLDyrrr7nPdrsKr1Fmla9WG-OJ-9LWfnwQFaGbx9urwX7AYlG9M-ADDUqI7-v96q--80u228fsBueUO3nzO7Q/zPR6XvO_P9AkVzEESJpQClMqmd0mK3stk6hdqBrC2gI",
+            "width": 63,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/LGD0F4WOmusz4cZ_UHe-fA/wIKduEkjvYWWJ2BVbWAwWOqP-RKf3nd7JMh7_M58CKAgUMBPmWnDxESva-XzAgVjuCWNfI0E-5wHUmlGcJIHumwVUItJlnNSuP4W1A8O0NUEPqDfJK7aiNaypxustiwWAih5iHtVSOS9SDmrS0Mxlw/sKgv-JA1PqPisVcOzwxIoZn51AS6bUsEjYRqJXYhyT8",
+            "width": 896,
+            "height": 512
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/aHYvlPgj3WLUcwlgrUPyrw/SiTFoovnXej8ZCXKbJe1HuVqQDTu2iOa5OgBf4gtRnpLsVJoe24fkYMdC0VZnWzgckMwHFgaPS_yahb9Oi7SdegIhvw-OXKao5igxdf4migsd2gH69Xp4rLm7fxe5Z0FG_syhPe9dQfXCx8ou8-wUQ/iyrhy4GUAKthxXnk2ke9ui5G9BB8EdKJ7jJp8JiRt1U",
+            "width": 1025,
+            "height": 586
+          }
+        }
+      }
+    ],
+    "User": [
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-04-04T03:39:31.000Z",
+    "Customer Name": ["FlagNA"]
+  },
+  {
+    "id": "recls5ptaK7Z7ZS6b",
+    "createdTime": "2025-05-16T13:18:20.000Z",
+    "Task Name": "Upload and organize product photos",
+    "Description": "Continue uploading and organizing product photos using provided documentation.\n",
+    "Assignee": ["recWXlK60fSwFGOHU"],
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec7jfOmatZLnM0aD"],
+    "Actual Time Spent": 0,
+    "Meetings": ["recNwkXVaho6x0WK4"],
+    "User": [
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-05-16T13:18:20.000Z",
+    "Customer Name": ["FlagNA"]
+  },
+  {
+    "id": "recr4UW23vkpcZjuV",
+    "createdTime": "2025-03-27T14:50:56.000Z",
+    "Task Name": "Fix Automations",
+    "Description": "Just in case here is the full list of issues that I need help with and 2 sample outputs that show the issuesIMMEDIATE CONCERNS\n- Report errors - In the RAW data report the variable {{Lead\\_Overall\\_Contact\\_Notes}} shows up but for some reason in the formatted version it is not recognizing it as a variable and it is NOT showing the inputted data\n- In both the RAW DATA and the FORMATTED version Multi select fields are NOT showing up. The current multi select (check boxes or multi select in the google form are: {{Blood\\_thinners\\_medications}}, {{Aesthetics\\_Treatments}}, {{Procedure\\_Interest}}, When multi select fields appear in the data I would prefer they present with a bulleted list\n- Would prefer any dates are formatted as MM/DD/YYYY, vs the default of YYYY-MM-DD\n- It appears there is about a 2min + lag from the time a submission is sent in Google Forms before it triggers the Keragon to trigger (ex: This test submission was completed at 12:22PM ST but did not appear in the Drive until 12:25 PM CST) the creation of the RAW DATA & DRAFT REPORT\n- How can we store these final PDF versions to the cloud?\nFUTURE CONSIDERSATIONS\n- The Google sheets shows a submission time of 11:22 AM however I submitted it at 12:22 PM CST so not sure how to capture a universal time stamp\n- How can we link these final PDF versions to te record in the CRM\n- How can we SFTP or other secure transfer these to the client’s side?\n- How can we eventually upload these to the client’s EMR\n- How can we provide the client with either a secure link to view/download or other way to securely transfer to them\n\n",
+    "Assignee": ["recWXlK60fSwFGOHU"],
+    "Due Date": "2025-04-04",
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Attachments": [
+      {
+        "id": "attcfsbJPjyLHbuxq",
+        "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/oYXCV_FLNPudygI5xveNUg/SxGJsQjZ6-hfzSbK0plfgefjYepG09igUaf80m9zIrMQcVA_OwVy1Oh2uH-EOIjMVVqduivsI082qiz96l5n4iwxUClYaqTatlWUWWMFV-WHTNFx2tD3cJkOWyQdo7QtrTR8D4xn7hO1wLpHg9yO5sTOZySJej5xe08abC26MiBf1MYPKvAd8bKl7T9hBUlOicZ8hm3rTTXgaYmnLm0DzA/bsRjzqriyCOWHuLgfGUj-HEN3S2hWeRLEVDGJb-Fp2Q",
+        "filename": "Jennifer Walker Walker Physican Opportunity 2025-03-27.pdf",
+        "size": 190202,
+        "type": "application/pdf",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/hprbCn7VvcOGs3klVKpbiA/KCBbps4cIAkH4zNXBTbEjEbd8xwPLJEbVg3sMUi8xSnrm7zzRqagXSwGKmB-KjX2jkjOr7DGXO_LojgqsoJ3cmNAdAwuQSYr7xQABS2LYD-YThP_AfIKOmtISZo2tC6EIm3K3qVHtBDqWRC_oyFhxw/uizuom0MraqJLvvlgzbkeXif17eIVN98l_josmoNb5g",
+            "width": 28,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/lFLPC0lJTjQuM99L9MUxRg/Z3f6D21HoYq5aESfkiK49osz-N2m5ih7H_SgVZ20iZf6QKne552jt85enRq-s6Z6ujJ6GAvlG0kaYEJTLjACEXkISX5dE4BeUxrx_KzEefiyoxBysDazG3eLwqnYFZT2kqi2uqKDx6jlHrLbKRQXHg/zgMGkDJSEMfNhMzzG35XUFpiAfpELPl5PzTF7Jitu4w",
+            "width": 512,
+            "height": 663
+          }
+        }
+      },
+      {
+        "id": "attBG07oew8N57kiB",
+        "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/rOjsq34FM5qR7fl_Q1BLpw/eHMFExlshMkOKIAPZ-Np_2AuFkU5lPhu-XJgCyvWlDgkhqxd3NurnI3ETkngH23S1xxTdPfXcwhD8KEv3fGyQvjiyWnPvotYY7lTypqXRGq3LSxlPZeuzqxmAWgkrGBPJhVZ5U3ARZ_86HoYFtZ96d_lGRcl-PAwV03PafA3Ryr-dpCremcm1dTENs2tCvWfU6MTCPzoFJlKJnhGXCJE2A/aJ_V0IxvuB58g23CJqysLU057fzuUnhX8tbiHyqfXeM",
+        "filename": "Jennifer Walker 2025-03-27_RawDataOutput.pdf",
+        "size": 69899,
+        "type": "application/pdf",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/sL9nclG_Y8xfTPl1oZzZQw/qUNxBar5UhzPtDYkV0-hIN3FLbfFxkqMqfNHejWip1BxnPSXcSMRhfKTw-OxYxZdbDkx22UXDbxIu0cso_BeQZQK4EzMJUpuRJNQphtb_d73HJv9IcYWQBmiWGuhEjQ9ULynmJwkypcK73U5b1sx8A/o5cD_-q7wRi0xgK1G-LVtDVrbyfnnkAvQRIKQSddfdc",
+            "width": 28,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/ubdZij0Llp2eGcgzMQBW-A/_YJyY2dnInc4vqwUElbQ21jMZHGbSnMTGGgTJBFcpUsUnBSedD-ll-uezaPaD1j2QRuvZQWH_T_1IZJCFriL4ugyeAV9UsgWXv3A6qfwyt8KMUAv5QDf_P-RKIZ5tOpDA_RUyOYenjsr1Fg19GVbEA/zlCQJyJl_fDaPJOSSmajwFewBkCQu9VslHqMFmqtD2k",
+            "width": 512,
+            "height": 663
+          }
+        }
+      }
+    ],
+    "User": [
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-03-27T14:50:56.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recs8yasYs5ZNZDZX",
+    "createdTime": "2025-05-01T19:06:11.000Z",
+    "Task Name": "Research AGO and GEO",
+    "Description": "Look into Agent Engine Optimization and Generative Engine Optimization concepts for SEO strategy.\n",
+    "Assignee": ["recWXlK60fSwFGOHU"],
+    "Priority": "3-Low",
+    "Status": "Todo",
+    "Project/Business Area": "Operations",
+    "Actual Time Spent": 0,
+    "Meetings": ["recMkhuPkLxW6oYtB"],
+    "User": [
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-05-01T19:06:11.000Z"
+  },
+  {
+    "id": "rectgInoO0yPPjGs0",
+    "createdTime": "2025-05-16T13:18:14.000Z",
+    "Task Name": "Investigate two-step search issue",
+    "Description": "Resolve the two-step search process issue to ensure consistent quick and full search results.\n",
+    "Assignee": ["recWXlK60fSwFGOHU"],
+    "Due Date": "2025-05-23",
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["rec7jfOmatZLnM0aD"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recNwkXVaho6x0WK4"],
+    "Attachments": [
+      {
+        "id": "attxmXr6TKPBPMqHI",
+        "width": 1949,
+        "height": 661,
+        "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/ATX-kjSvbjAQudzgVQI3Vw/SfHgoHRA3_9xy7pp6MHXts5IlLK-RZhdslw9tKI-Eyrbczp4qzAOBNY66-QPJWxMi5f3L3-cpYmdml2dF6jJ_Tay5FmWL6TULZ94hCU88ASHXeT8vu518J1M1-eJyPQQm-pA2tKskdOyQ928coXDCw/ki3xZr4744XDedDp7BXpf7NdOrA9AZkcCb3MDCJ97cU",
+        "filename": "image.png",
+        "size": 57347,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/xq7e3Vr192SLv9gEprVnzA/9ymh0NGAenD_HCKHlbRidXG4IXukBSZZQ49HSf6SwmXzXg83cxASMALWk6E1Sq_6D0R8MC5QwHLp2RaDdzRhRAEu-Lv9XIk5fPIETNDv9P3c7PwubIpU1vkZmaZ5-igK08a076z0LmHah980OLCITg/bwDyRoCQSuE5pKke4gWssKS3frNSfVefvLaMj_YHu5g",
+            "width": 106,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/HZJhJaf-mAq8RdznFhwTEA/Bd4-EAPor-lTP0NbpLLTJ4srBLI3HIXbcSNSCCiHGwde66IPZrbMBJqHOgQGYoqM70BxvwnW_m8XzVHfmoOPWtM7_W5e1qXOTkTUdPPsSuaOf4pA9Z3dQpBAAcx_YjtPXNf1bikc0ZKypD2sqfuKxQ/fmcD-twr7Dudud9z6VbwF_xo94IQlGfyz0vU5b4MMcw",
+            "width": 1510,
+            "height": 512
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/3Hr08XNR9h0kMqxUw5X6bg/kdzLIAGjb7vqOnDLQ0e1jKeU7C_jLvPtVAoVf_jxzuHdduHXsBwdmPN7E7xCSGcB7bT3qhJvuAF9gFogeOM7Suz0L_LSjoYqUoO46MaHWURpLifQEJ3r2-d4PwcB4syssyw6NrPkqEIl6KjHWBb_Ig/7xK4HgB94Z70AJWbsrG7zwegJAPxXARKkwIYs0GoABM",
+            "width": 1949,
+            "height": 661
+          }
+        }
+      }
+    ],
+    "User": [
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-05-16T13:18:14.000Z",
+    "Customer Name": ["FlagNA"]
+  },
+  {
+    "id": "recwf7hMnfOZk9QZL",
+    "createdTime": "2025-03-26T17:54:48.000Z",
+    "Task Name": "Keragon Training",
+    "Description": "Get Gus setup so we can start working on training for Keragon\n",
+    "Assignee": ["reckjb0OceIzxZyBp", "recWXlK60fSwFGOHU"],
+    "Due Date": "2025-03-31",
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Operations",
+    "Estimated Time (hrs)": 0.5,
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      },
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-03-26T17:54:48.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recx2VxQoUtkGVzcJ",
+    "createdTime": "2025-05-16T13:18:18.000Z",
+    "Task Name": "Send photo kit link to Cindy",
+    "Description": "Send Cindy a link to a recommended photo kit for consistent product photography.\n",
+    "Assignee": ["recWXlK60fSwFGOHU"],
+    "Due Date": "2025-05-23",
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec7jfOmatZLnM0aD"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recNwkXVaho6x0WK4"],
+    "User": [
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-05-16T13:18:18.000Z",
+    "Customer Name": ["FlagNA"]
+  },
+  {
+    "id": "rec4M1BJNoZRI2ijj",
+    "createdTime": "2025-03-03T16:17:51.000Z",
+    "Task Name": "Look into exporting CareSherpa Task to Google Sheets",
+    "Description": "Can we take a snapshot of the tasks created in airtable and export them to care sherpa google sheet\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-03-14",
+    "Priority": "1-High",
+    "Status": "In Progress",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Estimated Time (hrs)": 3,
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-03-03T16:17:51.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "rec4WyD4oVjnTMrox",
+    "createdTime": "2025-04-23T13:45:56.000Z",
+    "Task Name": "Update Shopify Site Main Link to Jane",
+    "Description": "Update the links that point to booker to jane. \nhttps://creekretreat.janeapp.com/\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-04-25",
+    "Priority": "1-High",
+    "Status": "In Progress",
+    "Customer": ["recXVyvLpxEvfxQlV"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-04-23T13:45:56.000Z",
+    "Customer Name": ["Creek Retreat"]
+  },
+  {
+    "id": "rec56v0vX8joN02r9",
+    "createdTime": "2024-11-15T20:05:04.000Z",
+    "Task Name": "Routine Risk Assessments Setup",
+    "Description": "Set up security calendar to plan routine risk assessments and notifications.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Operations",
+    "Estimated Time (hrs)": 3,
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2024-11-15T20:05:04.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "rec5ZgVsKzP08zWa1",
+    "createdTime": "2025-05-08T14:29:37.000Z",
+    "Task Name": "Task management project",
+    "Description": "Can we integrate monday, airtable, otter task capture\nuser access to monday, can we setup otter to autocreate (jess owner and suzy paid)\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-05-12",
+    "Priority": "2-Medium",
+    "Status": "Blocked",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-08T14:29:37.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "rec6QCEvprMK0m6Sv",
+    "createdTime": "2025-02-05T20:41:59.000Z",
+    "Task Name": "Data Integration & Visualization",
+    "Description": "Connect Dialpad data to Metabase & automate CRM reporting.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-02-12",
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recl2vogMnHeYhMYB"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-02-05T20:41:59.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "rec7Ru0sjpvdHL8Vb",
+    "createdTime": "2025-03-27T15:00:03.000Z",
+    "Task Name": "Teach Kris Custom GPT",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-20",
+    "Priority": "2-Medium",
+    "Status": "In Progress",
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-03-27T15:00:03.000Z"
+  },
+  {
+    "id": "rec7okKdarIYX5zsp",
+    "createdTime": "2025-05-29T14:40:58.000Z",
+    "Task Name": "Set up Observe voice assist meeting",
+    "Description": "Schedule a meeting to explore Observe's voice assist capabilities.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-13",
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recrqLxM4AR4oecEl"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-29T14:40:58.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "rec7ydG9Raj8Dis91",
+    "createdTime": "2025-02-24T20:57:04.000Z",
+    "Task Name": "Vendor Assessment for Automation/AI",
+    "Description": "Need to create an assessment matrix for the tools that were discovered during the VIVE conference in Nashville.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-02-28",
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Estimated Time (hrs)": 3,
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-02-24T20:57:04.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "rec9JGWM0byUCtGFg",
+    "createdTime": "2025-05-08T13:44:13.000Z",
+    "Task Name": "Clarify technical boundaries",
+    "Description": "Engage with Mighty Networks and Actionable engineering teams to clarify technical boundaries, especially regarding deep linking, SSO, and automation capabilities.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-30",
+    "Priority": "1-High",
+    "Status": "In Progress",
+    "Customer": ["recXVRmvXunR9i0H2"],
+    "Actual Time Spent": 0,
+    "Meetings": ["rec4QqI6X4poWwhJW"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-08T13:44:13.000Z",
+    "Customer Name": ["Academy Within"]
+  },
+  {
+    "id": "rec9pWzXw6NckCjgt",
+    "createdTime": "2025-05-19T23:31:00.000Z",
+    "Task Name": "Set Up Integration Meetings",
+    "Description": "Set up meetings with Observe AI contact and Jason Levy to clarify integration options.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Actual Time Spent": 0,
+    "Meetings": ["recy0ipAPza4mEtaV"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-19T23:31:00.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recCXWJAsqvYwLVvh",
+    "createdTime": "2025-03-20T20:56:21.000Z",
+    "Task Name": "Explore disaster recovery plan",
+    "Description": "Investigate more efficient disaster recovery strategies for hardware failures and VPN access issues.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Actual Time Spent": 0,
+    "Meetings": ["recvbbwbTm7DiH191"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-03-20T20:56:21.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recCdcN0zzf9owyPw",
+    "createdTime": "2025-05-14T16:08:22.000Z",
+    "Task Name": "Test Iframe Login Experience",
+    "Description": "Test the iframe login experience in the Academy Within app and coordinate with Shawn and Mighty Networks if issues persist.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-30",
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["recXVRmvXunR9i0H2"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recQTaRPwM6XxI8nu"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-14T16:08:22.000Z",
+    "Customer Name": ["Academy Within"]
+  },
+  {
+    "id": "recD6tvVjQzFHOfRG",
+    "createdTime": "2025-02-05T20:41:59.000Z",
+    "Task Name": "Create Slide Deck",
+    "Description": "Develop a presentation on AI Call Transcription & Summarization for Care Sherpa.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-02-07",
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recl2vogMnHeYhMYB"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-02-05T20:41:59.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recDca7KB9nFWOWmf",
+    "createdTime": "2025-06-06T14:37:59.000Z",
+    "Task Name": "Clean up users in Mini Orange",
+    "Description": "We need to clean up users that have never logged into the system.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-13",
+    "Priority": "1-High",
+    "Status": "In Progress",
+    "Customer": ["recXVRmvXunR9i0H2"],
+    "Project/Business Area": "Operations",
+    "Actual Time Spent": 0,
+    "Attachments": [
+      {
+        "id": "attLIuQ5lMt1CG1IX",
+        "url": "https://v5.airtableusercontent.com/v3/u/42/42/1749715200000/Z6XKgMmvdP7PSmn2lGC6dQ/RZ23_P7eqRyeMYjX7So1Xmi8Wllo-2IghNffsBLC4NzwYXoDarIbD-mqFIT4Av8F6liArd5LYHJxOPJ4qgLJHmJXDfuFKBpfeYjtqjTZG8ZIs4ZJtBAmGsgp6d0SnbkKhsPYlLuV26E3nO5H7nOWnpytCOpo2DE-vrjQG-Pr2Hk/cf8A4-Mb42eOAP3dbaH19W8hBG8VIYL6Zs7Y9iogGYM",
+        "filename": "academy no login users.csv",
+        "size": 12932,
+        "type": "text/csv"
+      }
+    ],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-06-06T14:37:59.000Z",
+    "Customer Name": ["Academy Within"]
+  },
+  {
+    "id": "recF9uzO9VXH6tt7f",
+    "createdTime": "2025-06-09T14:19:34.000Z",
+    "Task Name": "Track Joseph's time for Analytics Project",
+    "Description": "Make sure we are tracking Joseph's time and the work that he is doing.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-06-09T14:19:34.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recG2bqoE9cmGhClN",
+    "createdTime": "2025-05-28T19:27:25.000Z",
+    "Task Name": "Develop deployment architecture plan",
+    "Description": "Develop a deployment architecture plan.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-20",
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["recUz6OOrGT3wzJpr"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recxKjylPIwxEEdCk"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-28T19:27:25.000Z",
+    "Customer Name": ["CrossVue"]
+  },
+  {
+    "id": "recGFt5vDSQdpBy3k",
+    "createdTime": "2025-03-31T14:58:16.000Z",
+    "Task Name": "CRM Date issue",
+    "Description": "https://caresherpa.slack.com/archives/C020DJESAAH/p1742826213420739\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Priority": "2-Medium",
+    "Status": "Blocked",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-03-31T14:58:16.000Z",
+    "Notification Date": "2025-05-21T19:10:53.129Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recH4BmduJxQ73YGc",
+    "createdTime": "2025-04-23T17:33:55.000Z",
+    "Task Name": "Research new methods for adding AI marketing hooks",
+    "Description": "How do you start adding material for AIs to pick up in their research and searching\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-04-30",
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-04-23T17:33:55.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recHOkpydEgFJtNMW",
+    "createdTime": "2025-02-06T16:47:07.000Z",
+    "Task Name": "Plan security report discussion",
+    "Description": "Include a segment in the next quarterly meeting to discuss security reports and updates.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Actual Time Spent": 0,
+    "Meetings": ["recVtNBoHhmBhOwJB"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-02-06T16:47:07.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recJKBmICVtnLmd1b",
+    "createdTime": "2025-01-23T05:15:46.000Z",
+    "Task Name": "Review Data Retention Policies",
+    "Description": "Need to review policies for call recordings and security logs, including de-identified and legal-use archives.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recNoXegEBXJID1mv"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-01-23T05:15:46.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recJfNPMZiaZO96WE",
+    "createdTime": "2025-02-27T15:45:04.000Z",
+    "Task Name": "Look into GoHighLevel integration",
+    "Description": "Can keragon work with GoHighLevel: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2NhdGlvbl9pZCI6Ik1yM1c0RjVXMmRCa1pNbE9qaG01IiwiY29tcGFueV9pZCI6ImE1MjJLaUhPYmtkRzBDcUVHRnNjIiwidmVyc2lvbiI6MSwiaWF0IjoxNjgwMDM1MjA3NzY5LCJzdWIiOiJ1c2VyX2lkIn0.a-Kt4GXt7-kXS5ZKclshuEo63KQH8juLDTqEgW0jXjs\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-03-14",
+    "Priority": "2-Medium",
+    "Status": "In Progress",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Estimated Time (hrs)": 3,
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-02-27T15:45:04.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recKondzIkNQpqmza",
+    "createdTime": "2025-04-18T20:11:29.000Z",
+    "Task Name": "Create incident response plan for training",
+    "Description": "Work on setting up a incident plan for the sherpa team when a security or phishing incident has happened.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-05-30",
+    "Priority": "1-High",
+    "Status": "In Progress",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Estimated Time (hrs)": 1,
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-04-18T20:11:29.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recKsWPcKXzOY0jCs",
+    "createdTime": "2025-03-24T14:48:43.000Z",
+    "Task Name": "Play around with Voice Agent",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-03-31",
+    "Priority": "3-Low",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-03-24T14:48:43.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recLGfuNvbvZHbDfm",
+    "createdTime": "2025-02-06T16:47:07.000Z",
+    "Task Name": "Improve ChatGPT instruction sets",
+    "Description": "Research and discuss ways to improve instruction sets for ChatGPT during the next check-in.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Priority": "3-Low",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Actual Time Spent": 0,
+    "Meetings": ["recVtNBoHhmBhOwJB"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-02-06T16:47:07.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recLPLlyzrmPOFhIy",
+    "createdTime": "2025-02-05T20:41:59.000Z",
+    "Task Name": "Contact Google Cloud",
+    "Description": "Discuss Google Cloud’s AI Studio & medical transcription capabilities.\nStart next conversation for new credits\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-02-28",
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recl2vogMnHeYhMYB"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-02-05T20:41:59.000Z",
+    "Notification Date": "2025-05-22T14:42:52.063Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recLQldvfy4vYU74K",
+    "createdTime": "2025-05-15T13:11:35.000Z",
+    "Task Name": "Assist with Development Tasks",
+    "Description": "Contribute to development and hardening tasks once tools are set up.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-07-31",
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["recUz6OOrGT3wzJpr"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recTewIJA2QOfKbn3"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-15T13:11:35.000Z",
+    "Customer Name": ["CrossVue"]
+  },
+  {
+    "id": "recLd2z07gJRontv0",
+    "createdTime": "2025-04-14T20:28:29.000Z",
+    "Task Name": "Project Plan for Policy Work",
+    "Description": "Continue working on project plan for executing security information from the Rollins risk assessment\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-04-18",
+    "Priority": "2-Medium",
+    "Status": "In Progress",
+    "Customer": ["recXVRmvXunR9i0H2"],
+    "Project/Business Area": "Customer Task",
+    "Estimated Time (hrs)": 1,
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-04-14T20:28:29.000Z",
+    "Customer Name": ["Academy Within"]
+  },
+  {
+    "id": "recMvJptfhxdsVuFS",
+    "createdTime": "2025-05-16T13:18:17.000Z",
+    "Task Name": "Develop inventory sync automation",
+    "Description": "Develop and implement automation to sync QuickBooks inventory with Shopify using Google Drive.\n",
+    "Assignee": ["reckjb0OceIzxZyBp", "recWXlK60fSwFGOHU"],
+    "Due Date": "2025-05-30",
+    "Priority": "1-High",
+    "Status": "In Progress",
+    "Customer": ["rec7jfOmatZLnM0aD"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recNwkXVaho6x0WK4"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      },
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-05-16T13:18:17.000Z",
+    "Customer Name": ["FlagNA"]
+  },
+  {
+    "id": "recO8V1sOHlZB5Qxz",
+    "createdTime": "2025-05-28T19:27:25.000Z",
+    "Task Name": "Sketch deployment pipeline",
+    "Description": "Create a sketch of deployment pipeline including security and testing layers.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-20",
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["recUz6OOrGT3wzJpr"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recxKjylPIwxEEdCk"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-28T19:27:25.000Z",
+    "Customer Name": ["CrossVue"]
+  },
+  {
+    "id": "recOGJtXck98prKiQ",
+    "createdTime": "2025-05-20T19:00:18.000Z",
+    "Task Name": "Request sandbox environments",
+    "Description": "Request sandbox/test environments from Dialpad and Call Tracking Metrics for development purposes.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-05-21",
+    "Priority": "1-High",
+    "Status": "In Progress",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recPEYhCMJkVdRzuN"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-20T19:00:18.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recOxqCiMpkZxY6lB",
+    "createdTime": "2025-05-19T23:31:01.000Z",
+    "Task Name": "Fix Slack Notification Logic",
+    "Description": "Fix Slack notification logic so that notifications are only sent after a record is fully created.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-30",
+    "Priority": "3-Low",
+    "Status": "In Progress",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Operations",
+    "Actual Time Spent": 0,
+    "Meetings": ["recy0ipAPza4mEtaV"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-19T23:31:01.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recPUcR3bpVD3eBa1",
+    "createdTime": "2025-03-03T16:20:56.000Z",
+    "Task Name": "Keragon - Calls to SuiteCRM",
+    "Description": "Setup an integration with Callrail to be able to send call data directly to SuiteCRM\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-03-14",
+    "Priority": "1-High",
+    "Status": "Blocked",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Estimated Time (hrs)": 4,
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-03-03T16:20:56.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recPxvfmUSq1Gz3ea",
+    "createdTime": "2025-05-29T14:40:59.000Z",
+    "Task Name": "Pull data from APIs with Brian",
+    "Description": "Collaborate with Brian to extract data from Dial Pad and Call Tracking Metrics APIs.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-20",
+    "Priority": "1-High",
+    "Status": "In Progress",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recrqLxM4AR4oecEl"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-29T14:40:59.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recTHsavi4PAxLXmi",
+    "createdTime": "2025-03-20T15:04:54.000Z",
+    "Task Name": "Slack security update",
+    "Description": "SSO with Google Workspace \n<https://slack.com/help/articles/204078066-Google-Workspace-single-sign-on>\nNeed to determine if our existing accounts will be saved ie. jessica@caresherpa.com vs jessica@care-sherpa.com\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-27",
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Operations",
+    "Estimated Time (hrs)": 1,
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-03-20T15:04:54.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recUCzuoDPLSRGKli",
+    "createdTime": "2025-02-12T23:53:51.000Z",
+    "Task Name": "Investigate Opt In Process",
+    "Description": "Detailed Description: Opt-In / Opt-Out Compliance Discussion\n\nDuring the Tech Check-in (Feb 12, 2025) meeting, Jessica Walker and Matthew Ledom discussed concerns about A2P (Application-to-Person) messaging compliance and how to ensure Care Sherpa’s SMS communications follow regulations without risking a system-wide messaging shutdown due to flagged messages.\n\nProblem Statement: Ensuring Compliance with SMS Opt-In/Opt-Out Rules\n\nCare Sherpa needs to implement a clear and trackable SMS opt-in process to meet A2P 10DLC regulations and HIPAA compliance.\n\t•\tCare Sherpa’s A2P registration was approved after 60 days, but there’s uncertainty about whether one flagged message could impact all clients under the same Dialpad account.\n\t•\tDialpad appears to group compliance approvals at the company level, meaning one non-compliant message could result in SMS suspension for all clients.\n\t•\tCallRail recently shut down SMS for some users, blaming the carrier for not recognizing the opt-in process.\n\t•\tThe team needs to clarify how Dialpad handles flagged messages and violations before moving all clients over.\n\nProposed Solution: Standardizing the Opt-In Process\n\nTo avoid compliance risks, Jessica and Matthew discussed implementing a standardized SMS opt-in process based on best practices.\n\n1️⃣ Defining the Opt-In Process\n\t•\tCare Sherpa will collect opt-in consent in multiple ways, depending on how a lead/patient enters the system:\n\t•\tWeb Leads: The online intake form should include a checkbox for SMS consent, with a timestamped record.\n\t•\tInbound Calls: If a lead calls in, the agent must verbally ask for consent before sending a text message.\n\t•\tPhysician Referrals: These leads may have implied consent, but the team needs to ensure proper documentation before sending messages.\n\t•\tExisting Clients: If not previously consented, Care Sherpa must send a one-time opt-in message before continuing SMS communication.\n\n2️⃣ First SMS Message Should Include Opt-In Confirmation\n\t•\tThe first text message a lead receives should include:\n\t•\tA greeting from the provider (e.g., “This is Jessica from Dr. Gilman’s office”)\n\t•\tA disclosure that this is a non-secure messaging channel\n\t•\tInstructions for opting out (e.g., “Reply STOP to unsubscribe”)\n\nExample First Message Template:\n\n\t“Hi [First Name], this is Jessica from Dr. Gilman’s office. We’re reaching out regarding your inquiry. You’ve opted in to receive SMS updates from us. Reply STOP to unsubscribe. Please do not share personal health information over text, as this is not a secure channel.”\n\n3️⃣ Tracking Consent in the CRM & SMS Platform\n\t•\tThe CRM must store SMS opt-in status at the opportunity level, since different contacts may require separate consents.\n\t•\tThe CRM should automatically append the opt-in disclaimer to the first SMS a patient receives.\n\t•\tIf a patient replies STOP, their record should be flagged with “Do Not Contact” at both the Contact and Opportunity levels.\n\n4️⃣ Automating Opt-In Compliance\n\t•\tAgents need an easy way to trigger an opt-in message if consent is received verbally.\n\t•\tThe team discussed a button in the CRM that would:\n\t•\tFire off the opt-in message to the lead\n\t•\tLog the opt-in timestamp in the CRM\n\t•\tMatthew will explore Dialpad’s ability to auto-track opt-ins to ensure compliance.\n\n5️⃣ Managing Opt-Out Requests\n\t•\tIf a patient replies STOP, Care Sherpa must:\n\t•\tImmediately stop sending messages to that number.\n\t•\tFlag the contact & opportunity as “Do Not Contact.”\n\t•\tEnsure the opt-out flag syncs with Dialpad and the CRM.\n\t•\tIf a patient complains or reports a message as spam, the team needs to know:\n\t•\tDoes Dialpad shut down all client SMS, or just that number?\n\t•\tShould each client have a separate SMS instance to avoid system-wide shutdowns?\n\nNext Steps & Tasks to Assign\n\n1️⃣ Confirm Compliance with Dialpad\n\t•\tJessica Walker to contact Dialpad support and confirm:\n\t•\tWhat happens if one client gets flagged for SMS violations?\n\t•\tCan clients have separate instances to protect others from potential shutdowns?\n\t•\tWhat tracking options are available in Dialpad for SMS opt-ins?\n\n2️⃣ Create the Opt-In Messaging Workflow\n\t•\tMatthew Ledom to design the first SMS message template and test automation options in Dialpad and CRM.\n\t•\tJessica Walker to review HIPAA compliance & best practices for opt-in messaging.\n\n3️⃣ Implement & Test Automated Opt-In Tracking\n\t•\tMatthew Ledom to add a CRM button for manual opt-in confirmation, ensuring it:\n\t•\tSends the opt-in SMS.\n\t•\tLogs the timestamp in the patient record.\n\t•\tSyncs with Dialpad.\n\n4️⃣ Implement “Do Not Contact” Flag\n\t•\tMatthew Ledom to add a global “Do Not Contact” flag in the CRM that applies at both the Contact and Opportunity levels when STOP is received.\n\t•\tEnsure any opt-out request is logged & prevents future SMS messages.\n\n5️⃣ Train the Team on the Opt-In Process\n\t•\tJessica Walker to create a quick training document for agents:\n\t•\tWhen and how to request opt-in.\n\t•\tHow to log opt-ins in the CRM.\n\t•\tWhat to do if a patient replies STOP.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recgu1OzXN2mDMUmW"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-02-12T23:53:51.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recUd43IxuIQH9fjN",
+    "createdTime": "2025-05-14T16:08:22.000Z",
+    "Task Name": "Define Host and User Experience",
+    "Description": "Map out the ideal host and user experience, including dashboard/reporting access and workflow within Mighty Networks.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Priority": "3-Low",
+    "Status": "Todo",
+    "Customer": ["recXVRmvXunR9i0H2"],
+    "Actual Time Spent": 0,
+    "Meetings": ["recQTaRPwM6XxI8nu"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-14T16:08:22.000Z",
+    "Customer Name": ["Academy Within"]
+  },
+  {
+    "id": "recW8sBzzR43hEYSQ",
+    "createdTime": "2025-01-25T02:55:33.000Z",
+    "Task Name": "Load Historical Data for Gilpin",
+    "Description": "Adding historical data for Gilpin. Lead data from May 2020 onward is currently stored in an Excel spreadsheet. While only data from 2023 onward has been loaded into the CRM, it would be valuable to import the full historical data (at minimum, name, contact information, and a history note) to enhance records and continuity.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-01-25T02:55:33.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recWF1b0b0aj8kixv",
+    "createdTime": "2025-05-08T13:44:11.000Z",
+    "Task Name": "Discuss API with Mighty Networks",
+    "Description": "Participate in the scheduled call with Mighty Networks to discuss API, automation, and integration capabilities.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-30",
+    "Priority": "1-High",
+    "Status": "In Progress",
+    "Customer": ["recXVRmvXunR9i0H2"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["rec4QqI6X4poWwhJW"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-08T13:44:11.000Z",
+    "Customer Name": ["Academy Within"]
+  },
+  {
+    "id": "recX15VdR3t0jXNvt",
+    "createdTime": "2025-03-24T14:48:07.000Z",
+    "Task Name": "Investigate Dialpad SuiteCRM integration",
+    "Description": "Talk with the Dialpad team to figure out the CRM integration. Connect with Chris to get engineering hours allocated. \n**Hector Romero**\n[hromero@dialpad.com](mailto:hromero@dialpad.com)\nSales Engineer II\nO: [512.256.6371](tel:5122566371)\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-03-28",
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 2,
+    "Hours": ["rec6JfgqEes8A2UZY"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-03-24T14:48:07.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recYDPOA2FJr685zd",
+    "createdTime": "2025-05-16T13:18:19.000Z",
+    "Task Name": "Propose estimate for inventory sync",
+    "Description": "Research and propose a not-to-exceed estimate for the QuickBooks-Shopify inventory sync automation project.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Status": "Todo",
+    "Customer": ["rec7jfOmatZLnM0aD"],
+    "Actual Time Spent": 0,
+    "Meetings": ["recNwkXVaho6x0WK4"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-16T13:18:19.000Z",
+    "Customer Name": ["FlagNA"]
+  },
+  {
+    "id": "recZHrvlQYiHfHIpZ",
+    "createdTime": "2025-05-28T19:27:24.000Z",
+    "Task Name": "Research Vercel and GitHub Actions",
+    "Description": "Research Vercel and GitHub Actions integration.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-17",
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["recUz6OOrGT3wzJpr"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recxKjylPIwxEEdCk"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-28T19:27:24.000Z",
+    "Customer Name": ["CrossVue"]
+  },
+  {
+    "id": "recZZGvoV5RzOl3dr",
+    "createdTime": "2025-05-23T22:01:43.000Z",
+    "Task Name": "Specify data mapping between systems",
+    "Description": "Define data mapping between Call Tracking Metrics and Dial Pad systems.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Actual Time Spent": 0,
+    "Meetings": ["recQ4x9JIW9JtcCxi"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-23T22:01:43.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recajpFO5B9OTV0Lk",
+    "createdTime": "2025-06-10T03:40:30.000Z",
+    "Task Name": "SuiteCRM - Task creation automation",
+    "Description": "How can we create a consult meeting in SuiteCRM that would then create the 3 tasks:\n- 1 Week Before\n- 48 Hr Reminder\n- 1 Day Post\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-13",
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-06-10T03:40:30.000Z",
+    "Notification Date": "2025-06-10T14:50:17.938Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "reccBqL0bKKpnc73E",
+    "createdTime": "2025-06-10T18:29:58.000Z",
+    "Task Name": "Incident Response Process",
+    "Description": "Create workflow to capture incidents that my have occurred for investigation.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-13",
+    "Priority": "3-Low",
+    "Status": "In Progress",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Operations",
+    "Actual Time Spent": 2,
+    "Hours": ["recAJw0qYRvXi2ujj"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-06-10T18:29:58.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recd6zi7N6Rjo4rkp",
+    "createdTime": "2025-01-23T05:17:32.000Z",
+    "Task Name": "Take over Github Account",
+    "Description": "Need to work with Github to take over ownership of CareSherpa organization\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Priority": "2-Medium",
+    "Status": "In Progress",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recNoXegEBXJID1mv"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-01-23T05:17:32.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recd7DqVTVAT4LlK6",
+    "createdTime": "2025-05-08T14:34:36.000Z",
+    "Task Name": "Investigate Dashboarding for ARS",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-05-12",
+    "Priority": "1-High",
+    "Status": "In Progress",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-08T14:34:36.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recfHXw1LJzi7A0ar",
+    "createdTime": "2025-05-20T17:29:36.000Z",
+    "Task Name": "ARS - Send Observe API endpoint specifications",
+    "Description": "Prepare and send API endpoint specifications and authentication details for Call Tracking Metrics and Dialpad integrations to the Observe team.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-05-21",
+    "Priority": "1-High",
+    "Status": "In Progress",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recybf6WDtw3GamNM"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-20T17:29:36.000Z",
+    "Notification Date": "2025-05-20T17:37:00.130Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recg0g93MHZ0yKU1D",
+    "createdTime": "2025-05-16T13:18:17.000Z",
+    "Task Name": "Scope new desktop/server specs",
+    "Description": "Scope and recommend specifications for a new desktop/server for QuickBooks and product management.\n",
+    "Assignee": ["recWXlK60fSwFGOHU"],
+    "Due Date": "2025-06-06",
+    "Priority": "1-High",
+    "Status": "In Progress",
+    "Customer": ["rec7jfOmatZLnM0aD"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recNwkXVaho6x0WK4"],
+    "User": [
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-05-16T13:18:17.000Z",
+    "Customer Name": ["FlagNA"]
+  },
+  {
+    "id": "rechkIssNhBPzayYL",
+    "createdTime": "2025-05-21T13:05:10.000Z",
+    "Task Name": "Setup Rainmaker AI on Shopify Site",
+    "Description": "Need to investigate getting the rainmaker widget added to the shopify site: https://therainmakerai.com/\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-04",
+    "Priority": "2-Medium",
+    "Status": "In Progress",
+    "Customer": ["recXVyvLpxEvfxQlV"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 1,
+    "Hours": ["recAP4eHClgDDaPwx"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-21T13:05:10.000Z",
+    "Customer Name": ["Creek Retreat"]
+  },
+  {
+    "id": "reckIozDtapzsHPl5",
+    "createdTime": "2025-05-23T22:01:42.000Z",
+    "Task Name": "Create API specifications for Observe AI",
+    "Description": "Develop API specifications for integrating Observe AI with existing systems.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Actual Time Spent": 0,
+    "Meetings": ["recQ4x9JIW9JtcCxi"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-23T22:01:42.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "reckcC3orFUVBlFmn",
+    "createdTime": "2025-06-09T14:21:29.000Z",
+    "Task Name": "Setup meeting with Joseph to go over QA Google Form",
+    "Description": "Need to look at getting access to google form.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-11",
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-06-09T14:21:29.000Z",
+    "Notification Date": "2025-06-09T14:23:24.908Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recm8rQrBhxN8I7yH",
+    "createdTime": "2025-05-16T13:18:15.000Z",
+    "Task Name": "Set default product sorting",
+    "Description": "Set default product sorting to alphabetical (A-Z) instead of best selling.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-20",
+    "Priority": "3-Low",
+    "Status": "Todo",
+    "Customer": ["rec7jfOmatZLnM0aD"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 0,
+    "Meetings": ["recNwkXVaho6x0WK4"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-16T13:18:15.000Z",
+    "Customer Name": ["FlagNA"]
+  },
+  {
+    "id": "recrENZ8SqNJANetl",
+    "createdTime": "2025-02-06T16:47:07.000Z",
+    "Task Name": "Review Justin's device management quote",
+    "Description": "Analyze the quote provided by Justin for device management solutions.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Priority": "3-Low",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Actual Time Spent": 0,
+    "Meetings": ["recVtNBoHhmBhOwJB"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-02-06T16:47:07.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recrgNvXhV8CiFP3B",
+    "createdTime": "2024-11-12T03:45:00.000Z",
+    "Task Name": "Create Discovery Discussion Workflow",
+    "Description": "Create a workflow that shows how a user can purchase a Discovery Discussion from the Might Networks UI and end up with a Actionable Habit Builder space for all the users they would like to invite.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-05-30",
+    "Priority": "2-Medium",
+    "Status": "In Progress",
+    "Customer": ["recXVRmvXunR9i0H2"],
+    "Project/Business Area": "Customer Task",
+    "Estimated Time (hrs)": 3,
+    "Actual Time Spent": 3.5,
+    "Hours": ["recQToU8B80Zb9r81"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2024-11-12T03:45:00.000Z",
+    "Customer Name": ["Academy Within"]
+  },
+  {
+    "id": "recsHQf1xYkacmCMH",
+    "createdTime": "2024-10-23T15:14:50.000Z",
+    "Task Name": "Log out user if token has expired",
+    "Description": "As a user visits the web view, the system should check if the token has expired, if so send them to the login page, if not pull the previous history\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Priority": "3-Low",
+    "Status": "Todo",
+    "Customer": ["recDyXRhjMWKbvN7R"],
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2024-10-23T15:14:50.000Z",
+    "Customer Name": ["SMBAdvisors.ai"]
+  },
+  {
+    "id": "rectQMAOBmbYZICla",
+    "createdTime": "2025-06-09T14:40:35.000Z",
+    "Task Name": "Turn on 2FA go Google Workspace",
+    "Description": "Create video and turn on multi factor auth for google workspace.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-20",
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-06-09T14:40:35.000Z",
+    "Notification Date": "2025-06-09T14:41:29.596Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recu6CMr6GKxrIROM",
+    "createdTime": "2025-04-18T20:14:41.000Z",
+    "Task Name": "Work on AIDA Policy Training",
+    "Description": "Collect the information for using AIDA Policy Training feature to get users trained on specific policies and potentially handbook\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-05-02",
+    "Priority": "1-High",
+    "Status": "In Progress",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Estimated Time (hrs)": 1,
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-04-18T20:14:41.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recuQN8JhVDneBxkc",
+    "createdTime": "2024-11-15T20:05:04.000Z",
+    "Task Name": "Encryption Policy Implementation",
+    "Description": "Work with Leslie Ann to ensure all drives are encrypted.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-07-31",
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Operations",
+    "Estimated Time (hrs)": 5,
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2024-11-15T20:05:04.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recvLdjZTc1kjO95O",
+    "createdTime": "2025-05-08T13:44:11.000Z",
+    "Task Name": "Facilitate vendor discussions",
+    "Description": "Connect with Adrian and Jennifer to understand their API needs and explore alignment for a shared API solution.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-20",
+    "Priority": "3-Low",
+    "Status": "Todo",
+    "Customer": ["recXVRmvXunR9i0H2"],
+    "Actual Time Spent": 0,
+    "Meetings": ["rec4QqI6X4poWwhJW"],
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-08T13:44:11.000Z",
+    "Customer Name": ["Academy Within"]
+  },
+  {
+    "id": "recwdI6sP2pTQ1PMZ",
+    "createdTime": "2025-05-21T17:30:06.000Z",
+    "Task Name": "Create Quarterly Security Training",
+    "Description": "Create quarterly security trainings with separate training material for each session. Put start dates for each quarter with 30 day refreshers. Create incident response slide for training.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-06-04",
+    "Priority": "2-Medium",
+    "Status": "In Progress",
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-05-21T17:30:06.000Z",
+    "Linked Tasks": ["reccBqL0bKKpnc73E"]
+  },
+  {
+    "id": "recwf7hMnfOZk9QZL",
+    "createdTime": "2025-03-26T17:54:48.000Z",
+    "Task Name": "Keragon Training",
+    "Description": "Get Gus setup so we can start working on training for Keragon\n",
+    "Assignee": ["reckjb0OceIzxZyBp", "recWXlK60fSwFGOHU"],
+    "Due Date": "2025-03-31",
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Operations",
+    "Estimated Time (hrs)": 0.5,
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      },
+      {
+        "id": "usrZG56vMcfTe9N7W",
+        "email": "gmartinez@trycatchdev.com",
+        "name": "Gus Martinez"
+      }
+    ],
+    "Created On": "2025-03-26T17:54:48.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recxht3eWgXMfkqyF",
+    "createdTime": "2025-03-20T14:57:32.000Z",
+    "Task Name": "Setup MFA Google Workspace",
+    "Description": "To ensure all Google Workspace users are aware of our multi-factor authentication update, we need to create documentation for them. We also need to plan with the company when the multi-factor authentication will be turned on in Google Workspace and then turn it on.\n",
+    "Assignee": ["reckjb0OceIzxZyBp"],
+    "Due Date": "2025-04-19",
+    "Priority": "2-Medium",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Estimated Time (hrs)": 2,
+    "Actual Time Spent": 0,
+    "User": [
+      {
+        "id": "usrTtkQGIH0ZtzQ15",
+        "email": "mledom@trycatchdev.com",
+        "name": "Matthew Ledom"
+      }
+    ],
+    "Created On": "2025-03-20T14:57:32.000Z",
+    "Customer Name": ["Care Sherpa"]
+  },
+  {
+    "id": "recDNHAQbj3tSYKZs",
+    "createdTime": "2025-03-28T21:05:59.000Z",
+    "Task Name": "DialPad Texts + Calls CallBridge",
+    "Description": "We need to setup Dialpad Integration with CallBridge to extract Calls and Text messages to store into the mongo db like we did for CallRail.\nhttps://developers.dialpad.com/docs/welcome\n",
+    "Assignee": ["recspVMlSExLstYgs"],
+    "Due Date": "2025-04-11",
+    "Priority": "1-High",
+    "Status": "Todo",
+    "Customer": ["rec9tf0sd97qqb3Ot"],
+    "Project/Business Area": "Customer Task",
+    "Actual Time Spent": 12.25,
+    "Hours": [
+      "rec5LLqAsHPnZ6kPJ",
+      "recNJGyd95Mv9E0fG",
+      "recGnyfywI65AR0yN",
+      "recHKuqJmEhjakvC9"
+    ],
+    "User": [
+      {
+        "id": "usr2IddLXcnierwMo",
+        "email": "bwiggins@trycatchdev.com",
+        "name": "Bryan Wiggins"
+      }
+    ],
+    "Created On": "2025-03-28T21:05:59.000Z",
+    "Customer Name": ["Care Sherpa"]
+  }
+]
