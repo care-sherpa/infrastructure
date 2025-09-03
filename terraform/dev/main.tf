@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "gcs" {
-    bucket = "care-sherpa-terraform-state"
-    prefix = "dev-workspace"
+    bucket = "cs_prodtfstate"
+    prefix = "environments/dev"
   }
 }
 
