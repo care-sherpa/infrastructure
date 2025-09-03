@@ -18,41 +18,11 @@ locals {
     services_range_name = "caresherpa-gke-service-ip-range"
   }
   
-  # Authorized networks for MySQL (only 2 networks)
-  mysql_authorized_networks = [
-    {
-      name  = "Joseph Home"
-      value = "68.89.9.20/32"
-    },
-    {
-      name  = "Ledom Home" 
-      value = "23.114.226.239/32"
-    }
-  ]
+  # Authorized networks for MySQL - now using variables
+  mysql_authorized_networks = var.mysql_authorized_networks
   
-  # Authorized networks for PostgreSQL (5 networks)
-  postgres_authorized_networks = [
-    {
-      name  = "Joseph Home"
-      value = "68.89.9.20/32"
-    },
-    {
-      name  = "Keragon3"
-      value = "54.225.183.38"
-    },
-    {
-      name  = "Keragon2"
-      value = "34.197.3.75"
-    },
-    {
-      name  = "Keragon1"
-      value = "18.214.155.250"
-    },
-    {
-      name  = "Ledom Home" 
-      value = "23.114.226.239/32"
-    }
-  ]
+  # Authorized networks for PostgreSQL - now using variables
+  postgres_authorized_networks = var.postgres_authorized_networks
   
   # PostgreSQL configuration
   postgres_config = {
@@ -162,33 +132,8 @@ locals {
     }
   }
 
-  # GKE authorized networks for master access
-  gke_authorized_networks = [
-    {
-      cidr_block   = "10.1.0.0/16"
-      display_name = "VPC Subnet"
-    },
-    {
-      cidr_block   = "71.135.82.66/32"
-      display_name = "Authorized Network 1"
-    },
-    {
-      cidr_block   = "70.225.9.239/32"
-      display_name = "Authorized Network 2"
-    },
-    {
-      cidr_block   = "75.138.17.130/32"
-      display_name = "Authorized Network 3"
-    },
-    {
-      cidr_block   = "136.29.138.11/32"
-      display_name = "Authorized Network 4"
-    },
-    {
-      cidr_block   = "24.183.235.71/32"
-      display_name = "Authorized Network 5"
-    }
-  ]
+  # GKE authorized networks for master access - now using variables
+  gke_authorized_networks = var.gke_authorized_networks
 
   # Artifact Registry configuration
   registry_config = {
