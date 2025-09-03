@@ -43,7 +43,7 @@ resource "google_sql_database_instance" "main_apps_db" {
         }
       }
       
-      ssl_mode    = "ALLOW_UNENCRYPTED_AND_ENCRYPTED"
+      ssl_mode    = "ENCRYPTED_ONLY"
     }
 
     # Location preferences
@@ -117,7 +117,7 @@ resource "google_sql_database_instance" "prod_mysql_apps_db" {
         }
       }
       
-      ssl_mode    = "ALLOW_UNENCRYPTED_AND_ENCRYPTED"
+      ssl_mode    = "ENCRYPTED_ONLY"
     }
 
     # Location preferences
