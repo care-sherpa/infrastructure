@@ -15,6 +15,7 @@ terraform {
 
   backend "gcs" {
     bucket = "cs_prodtfstate"
+    prefix = "environments/prod"
   }
 }
 
