@@ -5,7 +5,7 @@
 # VPC Network
 resource "google_compute_network" "private_network" {
   name                    = "${var.name_prefix}${var.network_config.network_name}"
-  auto_create_subnetworks = true
+  auto_create_subnetworks = false
   project                 = var.project_id
 }
 
