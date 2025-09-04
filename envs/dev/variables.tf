@@ -25,3 +25,43 @@ variable "environment" {
   type        = string
   default     = "dev"
 }
+
+variable "authorized_networks" {
+  description = "List of authorized networks for databases"
+  type = list(object({
+    name  = string
+    value = string
+  }))
+  default = [
+    {
+      name  = "Joseph Home"
+      value = "68.89.9.20/32"
+    },
+    {
+      name  = "Ledom Home"
+      value = "23.114.226.239/32"
+    }
+  ]
+}
+
+variable "gke_authorized_networks" {
+  description = "List of authorized networks for GKE cluster"
+  type = list(object({
+    cidr_block   = string
+    display_name = string
+  }))
+  default = [
+    {
+      cidr_block   = "10.10.0.0/16"
+      display_name = "Dev VPC Subnet"
+    },
+    {
+      cidr_block   = "68.89.9.20/32"
+      display_name = "Joseph Home"
+    },
+    {
+      cidr_block   = "23.114.226.239/32"
+      display_name = "Ledom Home"
+    }
+  ]
+}
