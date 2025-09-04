@@ -18,17 +18,8 @@ locals {
     services_range_name = "caresherpa-gke-service-ip-range"
   }
   
-  # Authorized networks for databases (smaller list for dev)
-  authorized_networks = [
-    {
-      name  = "Joseph Home"
-      value = "68.89.9.20/32"
-    },
-    {
-      name  = "Ledom Home" 
-      value = "23.114.226.239/32"
-    }
-  ]
+  # Authorized networks for databases
+  authorized_networks = var.authorized_networks
   
   # PostgreSQL configuration (smaller instance for dev)
   postgres_config = {
@@ -121,20 +112,7 @@ locals {
   }
 
   # GKE authorized networks for master access
-  gke_authorized_networks = [
-    {
-      cidr_block   = "10.10.0.0/16"
-      display_name = "Dev VPC Subnet"
-    },
-    {
-      cidr_block   = "68.89.9.20/32"
-      display_name = "Joseph Home"
-    },
-    {
-      cidr_block   = "23.114.226.239/32"
-      display_name = "Ledom Home"
-    }
-  ]
+  gke_authorized_networks = var.gke_authorized_networks
 
   # Artifact Registry configuration
   registry_config = {
